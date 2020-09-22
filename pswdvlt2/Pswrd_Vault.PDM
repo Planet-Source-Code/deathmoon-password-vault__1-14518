@@ -1,0 +1,273 @@
+[Root]
+Most Recent Package=Password Vault - Setup
+
+
+[Package|Password Vault Dep. File|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\WINDOWS\Profiles\thudson\Desktop\secpvocx
+
+[Package|Password Vault Dep. File|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Password Vault Dep. File|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Password Vault Dep. File|Files Found]
+
+[Package|Password Vault Dep. File|Files Released]
+
+[Package|Password Vault Dep. File|Missing Dependency Information]
+C:\Program Files\NewControls\Crypt.ocx=
+
+[Package|Password Vault Dep. File|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\scrrun.dll=
+
+[Package|Password Vault Dep. File|Files Added]
+C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\pwdata.mdb=
+
+[Package|Password Vault Dep. File|Files Removed]
+
+[Package|Password Vault Dep. File|Files In Project]
+C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\Pswrd_Vault.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\Expsrv.dll=Yes
+C:\WINDOWS\SYSTEM\MSWSTR10.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWDAT10.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD2X40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD3X40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTES40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\Program Files\NewControls\Crypt.ocx=Yes
+C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\pwdata.mdb=Yes
+
+[Package|Password Vault Dep. File|Configure Registry Files]
+Applicable=
+
+[Package|Password Vault Dep. File|Configure Remote Servers]
+Applicable=
+
+[Package|Password Vault Dep. File|Install Locations]
+C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\Pswrd_Vault.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWSTR10.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWDAT10.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD3X40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTES40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\Program Files\NewControls\Crypt.ocx=$(WinSysPath)
+C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\pwdata.mdb=$(AppPath)
+
+[Package|Password Vault Dep. File|Configure Shared Files]
+Applicable=
+
+[Package|Password Vault Dep. File|DepFile]
+DepCabFile=Pswrd_Vault.CAB
+DepCabRun=Pswrd_Vault.INF
+
+[Package|Password Vault Dep. File|Package]
+PackageFolder=C:\WINDOWS\Profiles\thudson\Desktop\secpvocx
+ProjectFolder=C:\WINDOWS\Profiles\thudson\Desktop\secpvocx
+ServerSideCab=
+File1=C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\Pswrd_Vault.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Password Vault - Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\Install
+
+[Package|Password Vault - Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Password Vault - Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Password Vault - Setup|Files Found]
+pwdata.mdb=N:\Development\secpvocx\pwdata.mdb
+
+[Package|Password Vault - Setup|Files Released]
+Psswrd_Vlt.CHI=
+
+[Package|Password Vault - Setup|Missing Dependency Information]
+C:\Program Files\NewControls\Crypt.ocx=
+
+[Package|Password Vault - Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\scrrun.dll=
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Password Vault - Setup|Files Added]
+pwdata.mdb=
+
+[Package|Password Vault - Setup|Files Removed]
+
+[Package|Password Vault - Setup|Files In Project]
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=Yes
+N:\Development\secpvocx\Pswrd_Vault.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSJET40.DLL=Yes
+C:\WINNT\system32\MSJTER40.DLL=Yes
+C:\WINNT\system32\MSJINT40.DLL=Yes
+C:\WINNT\system32\VBAJET32.DLL=Yes
+C:\WINNT\system32\Expsrv.dll=Yes
+C:\WINNT\system32\MSWSTR10.DLL=Yes
+C:\WINNT\system32\MSWDAT10.DLL=Yes
+C:\WINNT\system32\MSRD2X40.DLL=Yes
+C:\WINNT\system32\MSRD3X40.DLL=Yes
+C:\WINNT\system32\MSREPL40.DLL=Yes
+C:\WINNT\system32\MSJTES40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+N:\Development\secpvocx\Psswrd_Vlt.chm=Yes
+C:\WINNT\system32\hhctrl.ocx=Yes
+C:\WINNT\system32\itss.dll=Yes
+C:\WINNT\system32\itircl.dll=Yes
+C:\WINNT\system32\hh.exe=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+N:\Development\secpvocx\pwdata.mdb=Yes
+
+[Package|Password Vault - Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Password Vault - Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Password Vault - Setup|Install Locations]
+C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\Pswrd_Vault.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWSTR10.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWDAT10.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD3X40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTES40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\Program Files\NewControls\Crypt.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\pwdata.mdb=$(AppPath)
+C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\Psswrd_Vlt.chm=$(AppPath)
+C:\WINDOWS\SYSTEM\HHCtrl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\itss.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITIRCL.DLL=$(WinSysPath)
+C:\WINDOWS\hh.exe=$(WinSysPath)
+N:\Development\secpvocx\Pswrd_Vault.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJET40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\Expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSWSTR10.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSWDAT10.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD3X40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTES40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+N:\Development\secpvocx\Psswrd_Vlt.chm=$(AppPath)
+C:\WINNT\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINNT\system32\itss.dll=$(WinSysPath)
+C:\WINNT\system32\itircl.dll=$(WinSysPath)
+C:\WINNT\system32\hh.exe=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+N:\Development\secpvocx\pwdata.mdb=$(AppPath)
+
+[Package|Password Vault - Setup|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\Pswrd_Vault.exe=No
+C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\pwdata.mdb=No
+C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\Psswrd_Vlt.chm=No
+N:\Development\secpvocx\Pswrd_Vault.exe=No
+N:\Development\secpvocx\Psswrd_Vlt.chm=No
+N:\Development\secpvocx\pwdata.mdb=No
+
+[Package|Password Vault - Setup|Distribution]
+Type=single
+Size=
+Title=Password Vault
+
+[Package|Password Vault - Setup|IconGroups]
+Group0=Password Vault
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Password Vault - Setup|Password Vault]
+Icon1=Pswrd_Vault.exe
+Title1=Password Vault
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Password Vault - Setup|Package]
+PackageFolder=C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\Install
+ProjectFolder=N:\Development\secpvocx
+ServerSideCab=
+File1=C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\Install\setup.exe
+File2=C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\Install\Setup.Lst
+File3=C:\WINDOWS\Profiles\thudson\Desktop\secpvocx\Install\Pswrd_Vault.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

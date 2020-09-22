@@ -1,0 +1,26 @@
+[Version]
+Version=1.1.0.26
+
+[Pswrd_Vault.exe <0009>]
+Dest=$(AppPath)
+Date=12/18/99
+Time=18:39
+Version=1.1.0.26
+CABFilename=Pswrd_Vault.CAB
+CABINFFile=Pswrd_Vault.INF
+Uses1=MSVBVM60.DLL
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=DAO360.DLL
+Uses8=scrrun.dll
+Uses9=Crypt.ocx
+Uses10=pwdata.mdb
+
+[Crypt.ocx <0009>]
+Dest=$(WinSysPath)
+Date=12/18/99
+Time=18:07
+Version=1.0.0.11
